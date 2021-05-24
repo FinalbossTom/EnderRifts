@@ -3,10 +3,10 @@ A Minecraft Datapack used to create Teleporters for players to travel in Style.
 
 ![2021-05-24_01 48 46](https://user-images.githubusercontent.com/28835600/119280728-ea496f80-bc32-11eb-9885-87dcdfe71139.png)
 
-A short overview what this Datapack does:
+A short overview of what this Datapack does:
 
  + A Teleporter-System that is able to transport any kind of Mob from one place to another, even through dimensions.
- + A imeplementation that is Vanilla-Friendly yet not completely free of charge.
+ + A implementation that is Vanilla-Friendly yet not completely free of charge.
  + A very immersive way for transportation, no more simple rightclicking on signs, in order to get transported in a single second!
  + A Fuel and Upgrading System.
  + Not that performance heavy, even with alot of working teleporters.
