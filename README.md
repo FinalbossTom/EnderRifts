@@ -20,6 +20,6 @@ and what it currently lacks:
 If you wish to install this Datapack, head over to the Releases and download the Zip file. It should contain a file that will walk you through the installation process.
 However if you have ever installed a Datapack before, then this process is the same as any other Datapack.
 
-The Datapack is explained in Detail in the Wiki, so be sure to check it out, in order to get started!
+The Datapack is explained in Detail in the (Wiki)[https://github.com/FinalbossTom/EnderRifts/wiki], so be sure to check it out, in order to get started!
 
 ![2021-05-24_01 53 10](https://user-images.githubusercontent.com/28835600/119280731-eb7a9c80-bc32-11eb-957f-ed24a68db35d.png)
