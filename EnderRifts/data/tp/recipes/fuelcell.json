@@ -3,12 +3,9 @@
     "pattern": [
         "EEE",
         "RGR",
-	"#R#"
+	" R "
     ],
     "key": {
-	"#": {
-	     "item": "minecraft:air"
-	},
         "E": {
             "item": "minecraft:ender_eye"
         },

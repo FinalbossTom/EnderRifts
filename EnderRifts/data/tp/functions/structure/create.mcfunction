@@ -33,6 +33,7 @@ execute as @e[tag=tpDum,distance=..3] at @s run playsound minecraft:entity.firew
 playsound minecraft:item.firecharge.use block @a[distance=..16] ~ ~ ~ 1 0.4
 playsound minecraft:item.trident.thunder block @a[distance=..16] ~ ~ ~ 1 1
 
+scoreboard players set @p tpNotification 100
 tellraw @a ["",{"selector":"@p"},{"text":" has just created a "},{"text":"Teleporter","color":"gold"},{"text":"!"}]
 
 forceload add ~ ~

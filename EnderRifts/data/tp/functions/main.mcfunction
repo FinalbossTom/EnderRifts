@@ -1,5 +1,4 @@
 
-
 ## Loop the Timer and reset if maxed
 scoreboard players add Timer tpVar 1
 execute if score Timer tpVar matches 21.. run scoreboard players set Timer tpVar 0
@@ -15,7 +14,7 @@ execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:compass"}}] at @s if 
 execute as @e[type=minecraft:item,nbt={Item:{id:"minecraft:compass"}}] at @s if score Checking tpVar matches 1 run function tp:warping/checkloop
 
 ## Check players for ringing bells. This triggers teleportation
-execute as @a[scores={tpbell=1}] at @s run function tp:warping/trigger
+execute as @a[scores={tpbell=1..}] at @s run function tp:warping/trigger
 execute as @e[tag=tpDum] at @s if score @s tpTick matches 0.. run function tp:warping/sequence
 
 ## Check Paper for nearby Teleport-AEC's

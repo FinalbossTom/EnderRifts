@@ -9,9 +9,9 @@
 execute if score @s tpTick matches 0 if score @s tpUpgraded matches 1 run scoreboard players set @s tpTick 280
 
 ## Messages
-execute if score @s tpTick matches 0 run tellraw @a[distance=..3.2] {"text":"Commencing teleportation...","color":"blue"}
+execute if score @s tpTick matches 0 run tellraw @a[distance=..3.2] {"text":"Charging Teleporter...","color":"blue"}
 execute if score @s tpTick matches 141 run tellraw @a[distance=..3.2] ["",{"text":"Teleporter charge at ","color":"blue"},{"text":"50%","bold":true,"color":"blue"}]
-execute if score @s tpTick matches 300 run tellraw @a[distance=..3.2] {"text":"Teleporter ready.\nTranslocational shift will now commence.","color":"blue"}
+execute if score @s tpTick matches 300 run tellraw @a[distance=..3.2] {"text":"Teleporter ready.\nA Rift will now be opened.","color":"blue"}
 
 
 ## Teleport indicator Effect
